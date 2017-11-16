@@ -1,0 +1,56 @@
+*{
+}
+body{
+  margin: 100px;
+  opacity: .8;
+  font-family: 'Inconsolata', monospace;
+}
+
+.barrita{
+  background: black;
+  width: 65px;
+  height: 8px;
+  position: relative;
+  bottom: 15px;
+}
+
+.coder1, .coder2, .coder3, .coder4, .coder5, .coder6 {
+  border: solid gray 1px;
+  width:200px;
+  height: 200px;
+  float: left;
+  background-size: cover;
+  margin: 0px 30px 30px 0px;
+}
+
+.coder1{
+  background-image: url("../assets/images/Angelina.jpg");
+
+}
+
+.coder2{
+  background-image: url("../assets/images/Antonieta.jpg");
+}
+
+.coder3{
+  background-image: url("../assets/images/Julieta.jpg");
+}
+
+.coder4{
+  background-image: url("../assets/images/Lili.jpg");
+  clear: left;
+}
+
+.coder5{
+  background-image: url("../assets/images/Maricarmen.jpg");
+}
+.coder6{
+  background-image: url("../assets/images/Rubi.jpg");
+}
+
+.name1, .name2, .name3, .name4, .name5, .name6{
+  z-index: 10;
+  color: white;
+  margin-top: 170px;
+  margin-left: 100px;
+  }
